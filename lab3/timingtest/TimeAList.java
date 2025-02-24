@@ -31,7 +31,7 @@ public class TimeAList {
         AList<Double> times = new AList<>();
         AList<Integer> opcounts = new AList<>();
         int size, counter;
-        int maxCheckingSize = 100000000;
+        int maxCheckingSize = 128000;
         Stopwatch sw = new Stopwatch();
         counter = 0;
 
